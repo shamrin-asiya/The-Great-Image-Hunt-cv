@@ -1,6 +1,6 @@
 import cv2 
 #to open and access the web cam 
-face_cascade = cv2.CascadeClassifier('C:/Users/aksha/python/face reco/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 webcam = cv2.VideoCapture(0) # 0 indicates the number of web cam we allow or present in the system
 while True:
     _,img = webcam.read() 
